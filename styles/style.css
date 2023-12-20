@@ -1,8 +1,26 @@
 body {
-    background-color: #FF9800;
+    background-color: #B80000;
+    color: #FF9800;
 }
 
 header {
     text-align: center;
-    color: #820300;
+}
+
+a {
+    text-decoration: none;
+    color
+}
+
+ul {
+    list-style: none;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    border-radius: 2px;
+    border: solid black 1px;
+    margin-top: 2em;
 }
