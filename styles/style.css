@@ -8,12 +8,16 @@ body {
     font-style: italic;
 }
 
+header {
+    margin: 0;
+    width: 100%;
+}
+
 h1 {
     text-align: center;
-    width: 100%;
     background-color: #31304d7d;
     font-size: 6.5vw;
-    padding: 2% 2% 2% 2%;
+    padding: 2% 0 2% 0;
 }
 
 h2 {
@@ -49,7 +53,6 @@ nav {
     width: 100%;
     border-radius: 2em;
     border: solid #31304D 0.25em;
-
     border-radius: 2em;
     background-color: #31304D;
     box-sizing: border-box;
@@ -86,12 +89,12 @@ section .Res1152x896 {
     gap: 2em;
 }
 
-section .Res704x1408 img {
+.Res704x1408 img {
     height: auto;
     width: 100%;
 }
 
-section .Res704x1408 {
+.Res704x1408 {
     padding-top: 2em;
     width: 100%;
     display: inline-grid;
@@ -105,13 +108,40 @@ img {
 
 .Res2048x1536 {
     width: 100%;
-    margin: 1em 1em 1em 1em;
+    padding-top: 2em;
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
-    gap: 1.5em;
+    gap: 2em;
 }
 
 .Res2048x1536 img {
     height: auto;
     width: 100%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #b6bbc444;
+    margin-top: 6em;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    justify-content: flex-end;
+}
+
+footer span {
+    padding-left: .5%;
+    padding-right: .5%;
+    font-size: 1vw;
+}
+
+footer img {
+    border-radius: 0.5em;
+    width: 2.5vw;
+    height: 100%;
+}
+
+.footerFirstSpan {
+    flex: 1;
 }
