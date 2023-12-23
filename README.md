@@ -1,5 +1,4 @@
 # PhotoWeb
-![Logo](https://github.com/Dombah/PhotoWeb/blob/main/images/logo.png)
 
 Website photo gallery that consists of AI generated images using stable diffusion.
 The open source program used for image generation is Fooocus from user [@lllyasviel](https://github.com/lllyasviel)
