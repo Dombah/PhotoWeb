@@ -60,13 +60,13 @@ li {
 }
 
 nav {
-    border-radius: 2em;
+    border-radius: 2vw;
     border: solid #31304D 0.25em;
     background-color: #31304D;
 }
 
 img {
-    border-radius: 1em;
+    border-radius: 1vw;
 }
 
 .category-text {
@@ -78,7 +78,7 @@ img {
 section {
     width: 100%;
     background-color: #31304D;
-    border-radius: 2em;
+    border-radius: 2vw;
 }
 
 .images {
@@ -97,7 +97,7 @@ section {
     width: 100%;
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
-    gap: 2em;
+    gap: 1.25vw;
 }
 
 .Res704x1408 img {
@@ -106,19 +106,19 @@ section {
 }
 
 .Res704x1408 {
-    padding-top: 2em;
+    padding-top: 1.25vw;
     width: 100%;
     display: inline-grid;
     grid-template-columns: auto auto auto auto auto;
-    gap: 2em;
+    gap: 1.25vw;
 }
 
 .Res2048x1536 {
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1.25vw;
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
-    gap: 2em;
+    gap: 1.25vw;
 }
 
 .Res2048x1536 img {
