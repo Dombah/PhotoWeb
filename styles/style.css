@@ -63,12 +63,14 @@ nav {
     width: 100%;
     border-radius: 2em;
     border: solid #31304D 0.25em;
-    border-radius: 2em;
     background-color: #31304D;
-    box-sizing: border-box;
 }
 
-.category {
+img {
+    border-radius: 1em;
+}
+
+.category-text {
     margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
@@ -87,12 +89,12 @@ section {
     margin: 0 auto;
 }
 
-section .Res1152x896 img {
+.Res1152x896 img {
     height: auto;
     width: 100%;
 }
 
-section .Res1152x896 {
+.Res1152x896 {
     width: 100%;
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
@@ -110,10 +112,6 @@ section .Res1152x896 {
     display: inline-grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 2em;
-}
-
-img {
-    border-radius: 1em;
 }
 
 .Res2048x1536 {
